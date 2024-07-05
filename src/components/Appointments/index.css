@@ -1,0 +1,151 @@
+/* Write your CSS here */
+.appoitment-bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.appoitment-input-container {
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 90vw;
+  padding: 60px;
+}
+@media screen and (max-width: 767px) {
+  .appoitment-input-container {
+    width: 450px;
+  }
+}
+.appoitment-heading {
+  color: #171f46;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Roboto;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  .form-control {
+    width: 300px;
+  }
+}
+.form-control-container {
+  width: 100vw;
+}
+.label-heading {
+  color: #b5b7c4;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto;
+  margin-bottom: 6px;
+}
+
+.label-input {
+  height: 45px;
+  padding-left: 12px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  border-color: #b5b7c4;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  padding-right: 3px;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.appoitment-image {
+  width: 350px;
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .appoitment-image {
+    display: none;
+  }
+}
+
+.form-line {
+  color: #b5b7c4;
+  background-color: #b5b7c4;
+  height: 2px;
+  border-style: none;
+  margin-bottom: 20px;
+}
+.form-button {
+  background-color: #8b5cf6;
+  height: 30px;
+  width: 55px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 7px;
+}
+.appointments-heading {
+  color: #171f46;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.starrted-button {
+  background-color: transparent;
+  border-color: #9897f0;
+  border-style: solid;
+  border-width: 1px;
+  color: #9897f0;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 95px;
+  height: 35px;
+  border-radius: 60px;
+  outline: none;
+  cursor: pointer;
+}
+.appointments-starrted-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.appointmentItem-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 80vw;
+}
+.appointments-continer-list {
+  padding: 16px;
+}
+.starred-class {
+  background-color: #9897f0;
+  color: #ffffff;
+}

@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.title-star-container {
+  margin-top: 0px;
+  display: flex;
+  max-width: 280px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-container {
+  border-color: #b5b7c4;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 0px;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.star-image {
+  width: 30px;
+  height: 30px;
+}
+
+.title-name {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+.titile-star-button {
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.date-is {
+  margin-top: 0px;
+  color: #b5b7c4;
+  font-family: Roboto;
+  font-weight: 400;
+}
